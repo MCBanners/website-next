@@ -1,0 +1,24 @@
+---
+---
+
+<script is:inline>
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    if (localStorage.theme === "dark" || !("theme" in localStorage) && prefersDark) {
+        document.documentElement.classList.add("dark");
+    } else {
+        document.documentElement.classList.remove("dark");
+    }
+
+    function attachEvent(selector, event, callback) {
+        const matches = document.querySelectorAll(selector);
+        if (matches && matches.length) {
+            matches.forEach(element => element.addEventListener(event, () => callback(element), false));
+        }
+    }
+
+    attachEvent("[data-toggle-color-scheme]", "click", function(element) {
+        document.documentElement.classList.toggle("dark");
+        localStorage.theme = document.documentElement.classList.contains("dark") ? "dark" : "light";
+    });
+</script>

@@ -1,5 +1,5 @@
 {
-  "name": "@example/basics",
+  "name": "@mcbanners/website-next",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^1.0.0",
     "@astrojs/vue": "^1.0.0",
+    "sass": "^1.54.8",
     "vue": "^3.2.30"
   }
 }

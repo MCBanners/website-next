@@ -1,0 +1,38 @@
+---
+import Config from "../../config.mjs";
+
+export interface Props {
+	title?: string;
+	description?: string;
+}
+
+const {
+  title = "Untitled Page",
+  description = Config.description
+} = Astro.props;
+---
+
+<title>{title} - {Config.title}</title>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="description" content={description} />
+<meta name="robots" content="index, follow" />
+
+<!-- Google meta tags for rich search results -->
+<meta itemprop="name" content={title} />
+<meta itemprop="description" content={description} />
+<!-- TODO: add <meta itemprop="image" ...> when we have an image -->
+
+<!-- OpenGraph (Facebook, etc.) meta tags for rich embeds -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<!-- TODO: add <meta property="og:image" ...> when we have an image -->
+
+<!-- Twitter meta tags for rich embeds -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<!-- TODO: add <meta name="twitter:image" ...> when we have an image -->
