@@ -1,6 +1,8 @@
 ---
 import MetaTags from "~/components/core/MetaTags.astro";
 import PageScripts from "~/components/core/PageScripts.astro";
+import "@fontsource/inter";
+import "@fontsource/inter/700.css";
 
 export interface Props {
 	meta: Record<string, unknown>
@@ -14,7 +16,7 @@ const { meta = {} } = Astro.props;
 	<head>
 		<MetaTags {...meta} />
 	</head>
-	<body class="h-screen antialiased text-gray-900 dark:text-slate-300 bg-white dark:bg-slate-900 tracking-tight">
+	<body class="h-screen antialiased text-gray-900 dark:text-slate-300 bg-white dark:bg-slate-900 tracking-tight font-body">
 		<slot />
 		<PageScripts />
 	</body>

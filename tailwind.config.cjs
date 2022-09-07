@@ -10,10 +10,10 @@ module.exports = {
 				primary: colors.blue,
 				secondary: colors.pink
 			},
-			fontFamily: {
-				sans: ["Inter", ...defaultTheme.fontFamily.sans]
-			}
 		},
+		fontFamily: {
+			'body': ["Inter", ...defaultTheme.fontFamily.sans]
+		}
 	},
 	darkMode: "class",
 	plugins: [],

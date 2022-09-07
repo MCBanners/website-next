@@ -5,11 +5,12 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && subfont -ir --root dist",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource/inter": "^4.5.12",
     "astro": "^1.1.5"
   },
   "devDependencies": {
@@ -20,7 +21,6 @@
     "@astrojs/tailwind": "^1.0.0",
     "@astrojs/vue": "^1.0.0",
     "sass": "^1.54.8",
-    "subfont": "^6.12.0",
     "vue": "^3.2.30"
   }
 }
