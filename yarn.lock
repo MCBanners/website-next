@@ -496,7 +496,7 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@proload/core@^0.3.2":
+"@proload/core@^0.3.2", "@proload/core@^0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@proload/core/-/core-0.3.3.tgz#0a30c5ab69e21254b339813c674a6197a42337c3"
   integrity sha512-7dAFWsIK84C90AMl24+N/ProHKm4iw0akcnoKjRvbfHifJZBLhaDsDus1QJmhG12lXj4e/uB/8mB/0aduCW+NQ==
@@ -860,9 +860,9 @@ ast-types@0.14.2:
     tslib "^2.0.1"
 
 astro@^1.1.5:
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-1.1.8.tgz#5f6b6d2d2358619aecb1e0d840c43efa6d97464e"
-  integrity sha512-Wgo3GQAI/klxpym5XrtrEbnKSKmOYsuv0Gm2j6S4Y0F4LZg7Q4O1gv6OHiD1hX1q3u1LrWP4+3WuenxJBmgHOw==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-1.2.0.tgz#5f274eeeff78e02c6cc32b9ab54441dc03025af9"
+  integrity sha512-T7FxsGO37okCiXL3oGItDZgqBl1rsMAl/w84wa7VG8LprZVpZdJD04JuMUc0fZ09FQ0wnxgt3omGrGwXZPAYNw==
   dependencies:
     "@astrojs/compiler" "^0.24.0"
     "@astrojs/language-server" "^0.23.0"
@@ -875,7 +875,7 @@ astro@^1.1.5:
     "@babel/plugin-transform-react-jsx" "^7.17.12"
     "@babel/traverse" "^7.18.2"
     "@babel/types" "^7.18.4"
-    "@proload/core" "^0.3.2"
+    "@proload/core" "^0.3.3"
     "@proload/plugin-tsm" "^0.2.1"
     "@types/babel__core" "^7.1.19"
     "@types/html-escaper" "^3.0.0"
