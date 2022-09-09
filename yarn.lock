@@ -859,10 +859,10 @@ ast-types@0.14.2:
   dependencies:
     tslib "^2.0.1"
 
-astro@^1.1.5:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-1.2.0.tgz#5f274eeeff78e02c6cc32b9ab54441dc03025af9"
-  integrity sha512-T7FxsGO37okCiXL3oGItDZgqBl1rsMAl/w84wa7VG8LprZVpZdJD04JuMUc0fZ09FQ0wnxgt3omGrGwXZPAYNw==
+astro@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-1.2.1.tgz#34882d93291e1f9c082026dc9e973f0f40479033"
+  integrity sha512-bNWrYALx2o15QPfF0QKUI6UXZa6FQgprH4hQI742VHl4FGSizCPb1CVejyrIt4pKDvGcM2LUW/J2A5yZ8eIU1A==
   dependencies:
     "@astrojs/compiler" "^0.24.0"
     "@astrojs/language-server" "^0.23.0"
