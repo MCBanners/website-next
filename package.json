@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "@fontsource/inter": "^4.5.12",
-    "astro": "^1.2.5",
+    "astro": "^1.2.8",
     "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.7.0",
+    "@astrojs/image": "^0.7.1",
     "@astrojs/partytown": "^1.0.0",
     "@astrojs/prefetch": "^0.0.7",
     "@astrojs/sitemap": "^1.0.0",
