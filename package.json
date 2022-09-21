@@ -21,7 +21,7 @@
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^2.0.1",
     "@astrojs/vue": "^1.0.2",
-    "sass": "^1.54.8",
+    "sass": "^1.55.0",
     "vue": "^3.2.30"
   }
 }
