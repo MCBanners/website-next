@@ -1,0 +1,40 @@
+---
+import InlineList from '~/components/util/InlineList.astro'
+
+const listItems = [
+    { text: "Toggle Color Scheme", data_tags: { "data-toggle-color-scheme": true } },
+	{ text: "Another Item" },
+	{ text: "Ok" }
+]
+---
+
+<header class="container mx-auto">
+    <div class="rounded-md bg-slate-900 text-white dark:bg-zinc-200 dark:text-slate-900 h-20 p-2 mt-3 w-full flex justify-between items-center">
+        <h1 class="text-2xl text-gradient ml-12"><a href="/">MCBanners</a></h1>
+        <InlineList containerClassList="mr-12 gap-x-4" itemClassList="text-xl hover:brightness-75 dark:brightness-100 dark:hover:text-slate-600 hover:cursor-pointer" items={listItems} />
+    </div>
+</header>
+
+<style>
+    .text-gradient {
+		font-weight: 900;
+		background-image: linear-gradient(0deg, #4f39fa, #da62c4);
+		-webkit-background-clip: text;
+        background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 100% 200%;
+		background-position-y: 100%;
+		border-radius: 0.4rem;
+		animation: pulse 30s ease-in-out infinite;
+	}
+
+	@keyframes pulse {
+		0%,
+		100% {
+			background-position-y: 0%;
+		}
+		50% {
+			background-position-y: 80%;
+		}
+	}
+</style>

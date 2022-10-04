@@ -1,0 +1,35 @@
+---
+export interface ListItem {
+    text: string,
+    link?: URL,
+    data_tags?: Record<string, unknown>
+}
+
+export interface Props {
+    containerClassList?: string,
+    itemClassList?: string,
+	items: Array<ListItem>
+}
+
+const { items } = Astro.props
+let { containerClassList = '', itemClassList = '' } = Astro.props
+
+containerClassList += ' flex items-center justify-between'
+
+for (let item of items) {
+    if (!item.data_tags) {
+        item.data_tags = {}
+    }
+}
+---
+
+<div class={containerClassList}>
+    {items.map((item) => (
+        <>
+            <div class={itemClassList} {...item.data_tags}>
+                {!!item.link ? <a href={item.link}>{item.text}</a> : <p>{item.text}</p>}
+            </div>
+        </>
+    ))}
+</div>
+
