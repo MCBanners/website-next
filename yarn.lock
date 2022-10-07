@@ -108,10 +108,10 @@
     "@builder.io/partytown" "^0.7.1"
     mrmime "^1.0.0"
 
-"@astrojs/prefetch@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@astrojs/prefetch/-/prefetch-0.0.7.tgz#84984a79a7d0bfcefc99ebdef56acf6425d23bf4"
-  integrity sha512-cdIIKcppywnnTseiSIk1s3g3VlcHY/qM4WoqMRaveEzOXWr6NzJ1/bKpRXpx9y6S7BDET+ziV2A7d4t+9vny+A==
+"@astrojs/prefetch@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@astrojs/prefetch/-/prefetch-0.0.8.tgz#bf60bb78c119a061fbff152f5593e5d248702b19"
+  integrity sha512-DM0g/H+U2hA/3iIlhoXisAKqfPfiToMsEA8YUyg/3z2W4NaatQf3ppWRAYt9t4B7TJcpVdwDMomw2O/ZcFAghQ==
   dependencies:
     throttles "^1.0.1"
 
@@ -956,10 +956,10 @@ ast-types@0.14.2:
   dependencies:
     tslib "^2.0.1"
 
-astro@^1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-1.4.5.tgz#6515d8d6edd0d73be80707408c345dfe8c8c7b9a"
-  integrity sha512-7uflNdFMsAONkEdtNRqP1XgtgdUhiiFfYd3DjtaoaskYhcnfKKYy8Lht0stIQaMtAqITIy0LLTDvDM/j8SfuUw==
+astro@^1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-1.4.6.tgz#8442efca97605caf6d44f036b25f155df2cafdbd"
+  integrity sha512-zGi3uCl+VwBYwbmccyo9M4xI68gx+M7jJdP7kFSR3UCdmDbCoCY6u85ixAAjbkMUSNsuxsrBrhH9HW/X5SGTzQ==
   dependencies:
     "@astrojs/compiler" "^0.26.0"
     "@astrojs/language-server" "^0.26.2"
@@ -1112,9 +1112,9 @@ camelcase@^6.0.0, camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001407:
-  version "1.0.30001416"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001416.tgz#29692af8a6a11412f2d3cf9a59d588fcdd21ce4c"
-  integrity sha512-06wzzdAkCPZO+Qm4e/eNghZBDfVNDsCgw33T27OwBH9unE9S478OYw//Q2L7Npf/zBzs7rjZOszIFQkwQKAEqA==
+  version "1.0.30001418"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001418.tgz#5f459215192a024c99e3e3a53aac310fc7cf24e6"
+  integrity sha512-oIs7+JL3K9JRQ3jPZjlH6qyYDp+nBTCais7hjh0s+fuBwufc7uZ7hPYMXrDOJhV360KGMTcczMRObk0/iMqZRg==
 
 ccount@^2.0.0:
   version "2.0.1"
@@ -1364,9 +1364,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.251:
-  version "1.4.274"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.274.tgz#74369ac6f020c3cea7c77ec040ddf159fe226233"
-  integrity sha512-Fgn7JZQzq85I81FpKUNxVLAzoghy8JZJ4NIue+YfUYBbu1AkpgzFvNwzF/ZNZH9ElkmJD0TSWu1F2gTpw/zZlg==
+  version "1.4.275"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.275.tgz#db25c8e39c9cc910a996d1ec9b73eee834cb0ac1"
+  integrity sha512-aJeQQ+Hl9Jyyzv4chBqYJwmVRY46N5i2BEX5Cuyk/5gFCUZ5F3i7Hnba6snZftWla7Gglwc5pIgcd+E7cW+rPg==
 
 emmet@^2.3.0:
   version "2.3.6"
