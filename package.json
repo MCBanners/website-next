@@ -15,7 +15,7 @@
     "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.9.2",
+    "@astrojs/image": "^0.9.3",
     "@astrojs/partytown": "^1.0.1",
     "@astrojs/prefetch": "^0.0.7",
     "@astrojs/sitemap": "^1.0.0",
