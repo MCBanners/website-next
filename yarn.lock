@@ -956,10 +956,10 @@ ast-types@0.14.2:
   dependencies:
     tslib "^2.0.1"
 
-astro@^1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-1.4.5.tgz#6515d8d6edd0d73be80707408c345dfe8c8c7b9a"
-  integrity sha512-7uflNdFMsAONkEdtNRqP1XgtgdUhiiFfYd3DjtaoaskYhcnfKKYy8Lht0stIQaMtAqITIy0LLTDvDM/j8SfuUw==
+astro@^1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-1.4.7.tgz#046d290fea6fda0543f3809e9808a99c10b8edc7"
+  integrity sha512-Vit4megdh1rLdET5+HwQTdiXOjWQNzPNxRbpp08qn/0xw7pxrYD34TqLl7j8lxwrF+ky9WohdQGo7fkBF6P3SQ==
   dependencies:
     "@astrojs/compiler" "^0.26.0"
     "@astrojs/language-server" "^0.26.2"
