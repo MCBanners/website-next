@@ -20,7 +20,7 @@
     "@astrojs/prefetch": "^0.0.8",
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^2.1.0",
-    "@astrojs/vue": "^1.1.0",
+    "@astrojs/vue": "^1.2.2",
     "sass": "^1.55.0",
     "vue": "^3.2.40"
   }
