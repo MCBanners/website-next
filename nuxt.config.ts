@@ -6,5 +6,16 @@ export default defineNuxtConfig({
 
     typescript: {
         shim: false
-    }
+    },
+
+    components: [
+        { path: '~/components/core/structure', prefix: 'CoreStructure' },
+        { path: '~/components/core/util', prefix: 'CoreUtil' },
+        { path: '~/components/studio', prefix: 'Studio' },
+        '~/components'
+    ],
+
+    css: [
+        '@fortawesome/fontawesome-svg-core/styles.css'
+    ]
 })
