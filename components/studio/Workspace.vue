@@ -1,11 +1,11 @@
 <template>
-    <section id="canvas" class="flex w-screen justify-center items-center">
-        <StudioBannerContainer />
+    <section id="workspace" class="flex w-full justify-center items-center">
+        <StudioBannerCanvas />
     </section>
 </template>
 
 <style lang="scss">
-#canvas {
+#workspace {
     background: url('~/assets/image/pattern/studio/dot-grid.webp');
     background-repeat: repeat;
 }

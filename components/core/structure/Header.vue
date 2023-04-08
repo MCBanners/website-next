@@ -8,7 +8,7 @@
 </script>
 
 <template>
-    <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 w-full border-b border-gray-200 dark:border-gray-600">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
             <NuxtLink href="/" class="flex items-center">
                 <img src="/img/mcbanners-logo.svg" class="h-16 mr-3 sm:h-9" alt="MCBanners Logo">

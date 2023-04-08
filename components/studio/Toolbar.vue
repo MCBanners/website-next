@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col items-center justify-start gap-y-7 py-7 text-lg bg-white text-slate-900 h-screen w-40 border-r border-r-gray-200">
+    <section class="flex flex-col items-center justify-start gap-y-7 py-7 text-lg bg-white text-slate-900 w-40 border-r border-r-gray-200">
         <div class="move-tool">
             <font-awesome-icon icon="fa-solid fa-hand" />
         </div>

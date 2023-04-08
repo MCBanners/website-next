@@ -1,6 +1,6 @@
 <template>
-    <section class="flex my-16 bg-white dark:bg-gray-900">
+    <section class="flex flex-grow bg-white dark:bg-gray-900">
         <StudioToolbar />
-        <StudioCanvas />
+        <StudioWorkspace />
     </section>
 </template>
