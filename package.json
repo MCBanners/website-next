@@ -8,8 +8,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.4.0",
     "nuxt": "^3.1.2",
+    "nuxt-icon": "^0.3.3",
     "sass": "^1.61.0"
   },
   "dependencies": {

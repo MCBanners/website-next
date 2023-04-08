@@ -5,6 +5,10 @@
     onMounted(() => {
         initCollapses();
     })
+
+    function toggleDarkMode(theme) {
+        useColorMode().preference = theme
+    }
 </script>
 
 <template>
@@ -33,6 +37,13 @@
                     <li><CoreUtilNavbarLink path="/" text="Home" :active="true" /></li>
                     <li><CoreUtilNavbarLink path="/studio" text="Studio" /></li>
                     <li><CoreUtilNavbarLink path="/about" text="About" /></li>
+                    <li>
+                        <button @click="toggleDarkMode($colorMode.preference === 'dark' ? 'light' : 'dark')">
+                        <Icon v-if="$colorMode.preference === 'dark'" name="material-symbols:dark-mode-outline"
+                            class="text-white" />
+                        <Icon v-else name="material-symbols:sunny-outline-rounded" />
+                    </button>
+                    </li>
                 </ul>
             </div>
         </div>
