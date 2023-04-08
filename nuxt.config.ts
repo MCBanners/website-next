@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     components: [
         { path: '~/components/core/structure', prefix: 'CoreStructure' },
         { path: '~/components/core/util', prefix: 'CoreUtil' },
+        { path: '~/components/studio/util', prefix: 'StudioUtil' },
         { path: '~/components/studio', prefix: 'Studio' },
         '~/components'
     ],
