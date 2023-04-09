@@ -4,6 +4,15 @@ export default defineNuxtConfig({
         'nuxt-seo-kit'
     ],
 
+    runtimeConfig: {
+        public: {
+          siteUrl: 'https://mcbanners-next.pages.dev/',
+          siteName: 'MCBanners',
+          siteDescription: 'We turn data into beautiful banners',
+          language: 'en',
+        },
+    },
+
     modules: [
         '@nuxtjs/tailwindcss',
         '@nuxtjs/color-mode',
