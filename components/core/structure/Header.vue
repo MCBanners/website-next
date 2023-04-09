@@ -38,7 +38,7 @@
                     <li><CoreUtilNavbarLink path="/studio" text="Studio" /></li>
                     <li><CoreUtilNavbarLink path="/about" text="About" /></li>
                     <li>
-                        <button @click="toggleDarkMode($colorMode.preference === 'dark' ? 'light' : 'dark')">
+                        <button aria-label="Theme Toggle" @click="toggleDarkMode($colorMode.preference === 'dark' ? 'light' : 'dark')">
                         <Icon v-if="$colorMode.preference === 'dark'" name="material-symbols:dark-mode-outline"
                             class="text-white" />
                         <Icon v-else name="material-symbols:sunny-outline-rounded" />
