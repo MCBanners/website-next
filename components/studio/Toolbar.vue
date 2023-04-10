@@ -1,19 +1,19 @@
 <template>
     <section class="flex flex-col items-center justify-start gap-y-7 py-7 text-lg bg-white text-slate-900 w-40 border-r border-r-gray-200">
         <div class="move-tool">
-            <font-awesome-icon icon="fa-solid fa-hand" />
+            <Icon name="material-symbols:back-hand" size="20px"/>
         </div>
         <div class="paint-tool">
-            <font-awesome-icon icon="fa-solid fa-paintbrush" />
+            <Icon name="ion:paintbrush" size="20px"/>
         </div>
         <div class="text-tool">
-            <font-awesome-icon icon="fa-solid fa-font" />
+            <Icon name="uil:font" size="20px"/>
         </div>
         <div class="component-tool">
-            <font-awesome-icon icon="fa-solid fa-plus" />
+            <Icon name="material-symbols:add" size="20px"/>
         </div>
         <div class="component-tool">
-            <font-awesome-icon icon="fa-solid fa-check" />
+            <Icon name="ic:outline-check" size="20px"/>
         </div>
     </section>
 </template>

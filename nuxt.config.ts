@@ -34,8 +34,4 @@ export default defineNuxtConfig({
         { path: '~/components/studio', prefix: 'Studio' },
         '~/components'
     ],
-
-    css: [
-        '@fortawesome/fontawesome-svg-core/styles.css'
-    ]
 })
