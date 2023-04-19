@@ -24,7 +24,7 @@ const state = reactive({
     height: props.initialHeight,
     width: props.initialWidth,
     isSelected: props.selected,
-    isHovered: false
+    mouseOver: false
 })
 
 function setHeight(height: number) {
@@ -48,9 +48,20 @@ function handleMouseDown(event: MouseEvent) {
 
 function handleMouseMove(event: MouseEvent) {
     if (state.isSelected && element && element.value) {
-        console.log("handling mouse move (is selected, and ref is available)")
-        state.x = element.value.offsetLeft - (clientX - event.clientX);
-        state.y = element.value.offsetTop - (clientY - event.clientY);
+        const parentRect = element.value.parentNode.getBoundingClientRect();
+        const elementRect = element.value.getBoundingClientRect();
+        const maxHorizontal = parentRect.width - elementRect.width;
+        const maxVertical = parentRect.height - elementRect.height;
+        
+        const newX = element.value.offsetLeft - (clientX - event.clientX);
+        const newY = element.value.offsetTop - (clientY - event.clientY);
+
+        if ((newX >= 0 && newX <= maxHorizontal) && 
+                (newY >= 0 && newY <= maxVertical)) {
+
+            state.x = newX;
+            state.y = newY;
+        }
 
         clientX = event.clientX;
         clientY = event.clientY;
@@ -59,19 +70,24 @@ function handleMouseMove(event: MouseEvent) {
 
 function handleMouseUp(event: MouseEvent) {
     state.isSelected = false;
+    state.mouseOver = false;
 }
 
 function handleMouseOver(event: MouseEvent) {
-    state.isHovered = true
+    state.mouseOver = true;
 }
 
 function handleMouseLeave(event: MouseEvent) {
-    state.isSelected = false
-    state.isHovered = false
+    if (state.isSelected) {
+        handleMouseMove(event);
+    } else {
+        // mouse left, mouse is up; user no longer wants this element
+        state.mouseOver = false;
+    }
 }
 
 const innerBlockClasses = computed(() => {
-    return `hover:cursor-grab active:cursor-grabbing ${(state.isHovered || state.isSelected) ? "p-1 border border-dashed border-black" : ""}`
+    return `hover:cursor-grab active:cursor-grabbing ${(state.mouseOver || state.isSelected) ? "p-0.5 border border-dashed border-black" : ""}`
 })
 
 // truly dynamic properties cannot be tailwind classes (per docs)
