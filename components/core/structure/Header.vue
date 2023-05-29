@@ -32,7 +32,7 @@ const isDark = computed({
       </NuxtLink>
 
       <div class="flex md:order-2">
-        <NuxtLink href="/studio">
+        <NuxtLink href="/studio" class="mr-1.5">
           <UButton color="sky" size="md"> Create a Banner </UButton>
         </NuxtLink>
         <ClientOnly>
@@ -45,7 +45,7 @@ const isDark = computed({
             />
         </ClientOnly>
         <UButton
-            to="https://github.com/nuxtlabs/ui"
+            to="https://github.com/MCBanners/website-next"
             target="_blank"
             color="gray"
             variant="ghost"

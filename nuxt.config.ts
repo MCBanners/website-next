@@ -17,8 +17,9 @@ export default defineNuxtConfig({
         '@nuxthq/ui',
     ],
 
-    colorMode: {
-        classSuffix: '',
+    ui: {
+        global: true,
+        icons: ['heroicons', 'simple-icons']
     },
 
     typescript: {
