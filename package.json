@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@iconify-json/heroicons": "^1.1.10",
+    "@panzoom/panzoom": "^4.5.1",
     "flowbite": "^1.6.5",
     "satori": "^0.9.1"
   }

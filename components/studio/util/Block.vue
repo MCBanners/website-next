@@ -97,7 +97,7 @@ const inlineStyles = computed(() => {
 </script>
 
 <template>
-    <div :style="inlineStyles" @mousedown.prevent="handleMouseDown" @mousemove.prevent="handleMouseMove" @mouseup.prevent="handleMouseUp" @mouseover.prevent="handleMouseOver" @mouseleave.prevent="handleMouseLeave" ref="element">
+    <div :style="inlineStyles" class="banner-block" @mousedown.prevent="handleMouseDown" @mousemove.prevent="handleMouseMove" @mouseup.prevent="handleMouseUp" @mouseover.prevent="handleMouseOver" @mouseleave.prevent="handleMouseLeave" ref="element">
         <div :class="innerBlockClasses">
             <p v-if="props.type === BlockType.TEXT">{{ props.data }}</p>
             <img v-else-if="props.type === BlockType.IMAGE" :src="'data:image/png;base64,' + props.data" />
