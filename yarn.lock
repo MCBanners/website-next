@@ -455,9 +455,9 @@
     "@iconify/types" "*"
 
 "@iconify-json/simple-icons@^1.1.55":
-  version "1.1.57"
-  resolved "https://registry.yarnpkg.com/@iconify-json/simple-icons/-/simple-icons-1.1.57.tgz#172d869fe323a583a61c321ad1735472ebadfc9a"
-  integrity sha512-s6vCsqkxkrbsmNkpspTvpN+e852FQ5QWpD0n3N8CfB75AZQ42n8gmwSrst99qH9yFwN3yQQVLwwJwPwIhxefsQ==
+  version "1.1.71"
+  resolved "https://registry.yarnpkg.com/@iconify-json/simple-icons/-/simple-icons-1.1.71.tgz#ea833f7391796bf91d90a39e2a1c400cb725f8ad"
+  integrity sha512-3WVgJTaWBUOvq4G99v3Qs46zqnOJGNVMMlKCw+p8/gfbVz9mEAiwiqfGr+mpraotuwvUuQoJMi4SyseO8qjYDQ==
   dependencies:
     "@iconify/types" "*"
 
